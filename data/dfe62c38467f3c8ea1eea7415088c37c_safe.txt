@@ -1,0 +1,8 @@
+192.168.1.203||/index.php?upcache=1||Select * from dede_archives where title="2019年9月"||unusual character
+192.168.1.203||/index.php?upcache=1||Select * from dede_archives where title=\"2019年9月\"||unusual character
+192.168.1.203||/index.php?upcache=1||Select * from dede_archives where title=\"2019年9月\"||unusual character
+192.168.1.203||/index.php?upcache=1||Select * from dede_archives where title=\"2019年9月\"||unusual character
+192.168.1.203||/index.php?upcache=1||Select * from dede_archives where title=\"2019年9月\"||unusual character
+192.168.1.203||/index.php?upcache=1||Select * from dede_archives where title="2019年9月"||unusual character
+192.168.1.203||/index.php?upcache=1||Select * from dede_archives where title=&#8221;2019年9月&#8221;||comment detect
+192.168.1.203||/index.php?upcache=1||Select * from dede_archives where title=&#8221;2019年9月&#8221;||comment detect

@@ -1,0 +1,1 @@
+<li class="search-text-result"><img src="/images/arrl.png" style="float:left; margin-top:9px; margin-right:5px;"/><a href='[field:arcurl/]'>[field:title/]</a><span>[field:pubdate function='strftime("20%y-%m-%d",@me)'/]</span></li>

@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/page.css" rel="stylesheet" media="screen" type="text/css" />
+  <link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+  <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/WdatePicker.css" type="text/css" />
+  <script language="javascript" type="text/javascript" src="/js/WdatePicker.js"></script>
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+  <style>
+    .ondutydate{
+      font-size: 16px;
+      margin: 10px 0;
+      height: 30px;
+      align: center;
+    }
+    .ondutytable{
+      font-size: 14px;
+    }
+    .ondutytd1{
+        color: red;
+    }
+    .left3 {
+      width: 230px;
+      background: url(/templets/default/style/left3.png) no-repeat;
+      height: 231px;
+
+    }
+    #divGreen{
+      margin-top:20px;
+      *margin-top:5px;
+      padding-top: 40px;
+      width:95%;
+      height:164px;
+      margin-left:4px;
+      margin-right: 0;
+      overflow:hidden;
+      line-height:22px;
+
+    }
+    .onduty{
+      font-size: 14px;
+
+      padding-left: 0px;
+      margin: 0 auto;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div style="width:1002px; margin:auto; margin-top:0px;	background:#F0F7FD;">
+  <div style="width:100%; margin-left:10px;float:left; margin-top:12px;" class="leftt2">
+    <div style="width:98%;height:25px; border-bottom:#663300 dotted 1px">
+    <span style="float:left;">当前位置:{dede:field name='position'/}</span> </div>
+    <div style="float: left;">
+      <div style=" float: none;" class="left3">
+
+        <div id="divGreen">
+        </div>
+        <div style="margin-left: 3px"><a style="font-size: 14px;" href="javascript:(todayzhibanclick());"> {dede:todayonduty }{/dede:todayonduty}</a>   </div>
+      </div >
+
+    </div>
+
+    <div style="float:left;width: 750px">
+      <div style="margin: 0 auto;text-align: center;width: 400px"> {dede:onduty }{/dede:onduty}</div>
+
+    </div>
+
+  </div>
+  <div style="clear: both;"></div>
+
+</div>
+{dede:include filename="footer.htm"/} 
+<!-- /footer -->
+<script>
+    WdatePicker({eCont:'divGreen',dateFmt:'yyyy-MM-dd HH:mm:ss',skin:'default'});
+</script>
+
+</body>
+</html>

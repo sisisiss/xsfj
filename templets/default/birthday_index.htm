@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+</head>
+<body>
+{dede:include filename="h.htm"/}
+<div style="width:1002px; margin:auto; margin-top:25px;"> {dede:include filename="left.htm"/}
+  <div style="width:737px; margin-left:10px;float:left; margin-top:12px;" class="leftt2">
+    <div style="width:100%;background:url({dede:global.cfg_templets_skin/}/style/left35.png) no-repeat;height:25px; line-height:25px;"> <span style=" float:left; font-size:14px; color:#FFFFFF; font-weight:bold; margin-left:19px;">{dede:type type='self'}
+      [field:typename/]{/dede:type}</span> <span style="float:right;">当前位置:{dede:field name='position'/}</span> </div>
+    <div style="padding-top:11px; width:695px; margin-left:20px; margin-top:20px; color:#333333;line-height:180%; font-size:14px;"> {dede:field name='content'/} </div>
+  </div>
+</div>
+{dede:include filename="footer.htm"/} 
+<!-- /footer -->
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+<li class="cur"><img src="[field:litpic /]" alt="[field:title /]"></li>

@@ -1,0 +1,1 @@
+<li style="margin:0;padding:0 0 0 15px;" ><a  style="display: block;float:left" href='[field:arcurl/]'>[field:title/]</a><span style="display:block;float: right;color:#A2A4AD; font-size:12px;">[field:pubdate function='strftime("%m-%d",@me)'/]</span></li>

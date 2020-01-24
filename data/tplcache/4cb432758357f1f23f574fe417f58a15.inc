@@ -1,0 +1,1 @@
+{dede:field.content function='cn_substr((@me),111111650)'/}

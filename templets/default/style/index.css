@@ -1,0 +1,216 @@
+
+.left2{
+  text-align: left;
+}
+
+.catagory{
+    width:100%;
+    background:url(/templets/default/images/newlisttit.jpg)   no-repeat left bottom ;
+    background-size: 100% 100%;
+    height:30px; line-height:30px;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{dede:global.cfg_templets_skin/}/images/newlisttit.jpg',sizingMethod='scale');
+
+}
+.zhongyouce1 li a {
+    display: block;
+    float: left;
+    width: 315px;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+
+}
+#gundong {
+    width: 165px;
+    margin: 0 auto;
+    background: #dd127b;
+    overflow: hidden;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    white-space: nowrap;
+    word-break: keep-all;
+
+}
+.bt,.cat-title{
+    float:left; font-size:17px; color:#fff; font-weight:bold; margin-left:35px;
+}
+.bt a{
+    color:white;margin-left:15px
+}
+#demoDiv {
+    height: 300px;
+    width: 200px;
+    background: url(opacity.png);
+    text-align: center;
+    border: 1px solid #999;
+}
+img, div, input,li {  }
+.slider{
+    border:1px solid #CCCCCC; padding:2px;float:left;
+}
+.slider{height:360px; width:530px;margin:0 0 0 10px; *margin:0 0 0 5px;overflow:hidden; position:relative;text-align: left}
+.sliderbox{position:relative;}
+.slidernav{position:absolute; right:4px; bottom:5px; z-index:1;}
+.slidernav li{float:left; width:24px;}
+.slidernav li a{width:16px; padding:2px 4px; height:12px; background:#fff; color:#000; text-align:center;}
+.slidernav li.current a{background:#3B8DD1; color:#fff;}
+.slidertext{
+    position:relative;z-index:1;color: red;
+    *zoom:1;
+}
+LI {
+    LIST-STYLE-TYPE: none
+}
+
+.popupLayer {
+    Z-INDEX: 60! important
+}
+#showLayer-1 {
+    BORDER-RIGHT: #3685c3 2px solid; PADDING-RIGHT: 30px; BORDER-TOP: #3685c3 2px solid; PADDING-LEFT: 30px; BACKGROUND: #fff; PADDING-BOTTOM: 30px; BORDER-LEFT: #3685c3 2px solid; WIDTH: 748px; PADDING-TOP: 30px; BORDER-BOTTOM: #3685c3 2px solid; POSITION: relative
+}
+#showLayer-1 .tit {
+    PADDING-LEFT: 30px; FONT-SIZE: 16px; BACKGROUND: url(/templets/default/images/ico-5.png) no-repeat 0px 6px; COLOR: #207dc7; LINE-HEIGHT: 30px; FONT-FAMILY: "Microsoft Yahei"; HEIGHT: 30px
+}
+#showLayer-1 UL {
+    MARGIN-BOTTOM: 10px; OVERFLOW: hidden
+}
+#showLayer-1 UL LI {
+    DISPLAY: inline; PADDING-LEFT: 16px; BACKGROUND: url(/templets/default/images/ico-6.png) no-repeat 6px 11px; FLOAT: left; WIDTH: 171px; LINE-HEIGHT: 30px; BORDER-BOTTOM: #dcdcdc 1px dotted; HEIGHT: 30px
+}
+#showLayer-1 #closeLayer-1 {
+    RIGHT: 5px; BACKGROUND: url(/templets/default/images/ico-9.png) no-repeat 0px 0px; WIDTH: 19px; CURSOR: pointer; POSITION: absolute; TOP: 5px; HEIGHT: 19px
+}
+#showLayer-2 {
+    BORDER-RIGHT: #3685c3 2px solid; PADDING-RIGHT: 30px; BORDER-TOP: #3685c3 2px solid; PADDING-LEFT: 30px; BACKGROUND: #fff; PADDING-BOTTOM: 30px; BORDER-LEFT: #3685c3 2px solid; WIDTH: 748px; PADDING-TOP: 30px; BORDER-BOTTOM: #3685c3 2px solid; POSITION: relative
+}
+#showLayer-2 .tit {
+    PADDING-LEFT: 30px; FONT-SIZE: 16px; BACKGROUND: url(/templets/default/images/ico-5.png) no-repeat 0px 6px; COLOR: #207dc7; LINE-HEIGHT: 30px; FONT-FAMILY: "Microsoft Yahei"; HEIGHT: 30px
+}
+#showLayer-2 UL {
+    MARGIN-BOTTOM: 10px; OVERFLOW: hidden
+}
+#showLayer-2 UL LI {
+    DISPLAY: inline; PADDING-LEFT: 16px; BACKGROUND: url(/templets/default/images/ico-6.png) no-repeat 6px 11px; FLOAT: left; WIDTH: 171px; LINE-HEIGHT: 30px; BORDER-BOTTOM: #dcdcdc 1px dotted; HEIGHT: 30px
+}
+#showLayer-2 #closeLayer-2 {
+    RIGHT: 5px; BACKGROUND: url(/templets/default/images/ico-9.png) no-repeat 0px 0px; WIDTH: 19px; CURSOR: pointer; POSITION: absolute; TOP: 5px; HEIGHT: 19px
+}
+#showLayer-3 {
+    BORDER-RIGHT: #3685c3 2px solid; PADDING-RIGHT: 30px; BORDER-TOP: #3685c3 2px solid; PADDING-LEFT: 30px; BACKGROUND: #fff; PADDING-BOTTOM: 30px; BORDER-LEFT: #3685c3 2px solid; WIDTH: 748px; PADDING-TOP: 30px; BORDER-BOTTOM: #3685c3 2px solid; POSITION: relative
+}
+#showLayer-3 .tit {
+    PADDING-LEFT: 30px; FONT-SIZE: 16px; BACKGROUND: url(/templets/default/images/ico-5.png) no-repeat 0px 6px; COLOR: #207dc7; LINE-HEIGHT: 30px; FONT-FAMILY: "Microsoft Yahei"; HEIGHT: 30px
+}
+#showLayer-3 UL {
+    MARGIN-BOTTOM: 10px; OVERFLOW: hidden
+}
+#showLayer-3 UL LI {
+    DISPLAY: inline; PADDING-LEFT: 16px; BACKGROUND: url(/templets/default/images/ico-6.png) no-repeat 6px 11px; FLOAT: left; WIDTH: 171px; LINE-HEIGHT: 30px; BORDER-BOTTOM: #dcdcdc 1px dotted; HEIGHT: 30px
+}
+#showLayer-3 #closeLayer-3 {
+    RIGHT: 5px; BACKGROUND: url(/templets/default/images/ico-9.png) no-repeat 0px 0px; WIDTH: 19px; CURSOR: pointer; POSITION: absolute; TOP: 5px; HEIGHT: 19px
+}
+#showLayer-4 {
+    BORDER-RIGHT: #3685c3 2px solid; PADDING-RIGHT: 30px; BORDER-TOP: #3685c3 2px solid; PADDING-LEFT: 30px; BACKGROUND: #fff; PADDING-BOTTOM: 30px; BORDER-LEFT: #3685c3 2px solid; WIDTH: 748px; PADDING-TOP: 30px; BORDER-BOTTOM: #3685c3 2px solid; POSITION: relative
+}
+#showLayer-4 .tit {
+    PADDING-LEFT: 30px; FONT-SIZE: 16px; BACKGROUND: url(/templets/default/images/ico-5.png) no-repeat 0px 6px; COLOR: #207dc7; LINE-HEIGHT: 30px; FONT-FAMILY: "Microsoft Yahei"; HEIGHT: 30px
+}
+#showLayer-4 UL {
+    MARGIN-BOTTOM: 10px; OVERFLOW: hidden
+}
+#showLayer-4 UL LI {
+    DISPLAY: inline; PADDING-LEFT: 16px; BACKGROUND: url(/templets/default/images/ico-6.png) no-repeat 6px 11px; FLOAT: left; WIDTH: 171px; LINE-HEIGHT: 30px; BORDER-BOTTOM: #dcdcdc 1px dotted; HEIGHT: 30px
+}
+#showLayer-4 #closeLayer-4 {
+    RIGHT: 5px; BACKGROUND: url(/templets/default/images/ico-9.png) no-repeat 0px 0px; WIDTH: 19px; CURSOR: pointer; POSITION: absolute; TOP: 5px; HEIGHT: 19px
+}
+#showLayer-5 {
+    BORDER-RIGHT: #3685c3 2px solid; PADDING-RIGHT: 30px; BORDER-TOP: #3685c3 2px solid; PADDING-LEFT: 30px; BACKGROUND: #fff; PADDING-BOTTOM: 30px; BORDER-LEFT: #3685c3 2px solid; WIDTH: 748px; PADDING-TOP: 30px; BORDER-BOTTOM: #3685c3 2px solid; POSITION: relative
+}
+#showLayer-5 .tit {
+    PADDING-LEFT: 30px; FONT-SIZE: 16px; BACKGROUND: url(/templets/default/images/ico-5.png) no-repeat 0px 6px; COLOR: #207dc7; LINE-HEIGHT: 30px; FONT-FAMILY: "Microsoft Yahei"; HEIGHT: 30px
+}
+#showLayer-5 UL {
+    MARGIN-BOTTOM: 10px; OVERFLOW: hidden
+}
+#showLayer-5 UL LI {
+    DISPLAY: inline; PADDING-LEFT: 16px; BACKGROUND: url(/templets/default/images/ico-6.png) no-repeat 6px 11px; FLOAT: left; WIDTH: 171px; LINE-HEIGHT: 30px; BORDER-BOTTOM: #dcdcdc 1px dotted; HEIGHT: 30px
+}
+#showLayer-5 #closeLayer-5 {
+    RIGHT: 5px; BACKGROUND: url(/templets/default/images/ico-9.png) no-repeat 0px 0px; WIDTH: 19px; CURSOR: pointer; POSITION: absolute; TOP: 5px; HEIGHT: 19px
+}
+#showLayer-6 {
+    BORDER-RIGHT: #3685c3 2px solid; PADDING-RIGHT: 30px; BORDER-TOP: #3685c3 2px solid; PADDING-LEFT: 30px; BACKGROUND: #fff; PADDING-BOTTOM: 30px; BORDER-LEFT: #3685c3 2px solid; WIDTH: 748px; PADDING-TOP: 30px; BORDER-BOTTOM: #3685c3 2px solid; POSITION: relative
+}
+#showLayer-6 .tit {
+    PADDING-LEFT: 30px; FONT-SIZE: 16px; BACKGROUND: url(/templets/default/images/ico-5.png) no-repeat 0px 6px; COLOR: #207dc7; LINE-HEIGHT: 30px; FONT-FAMILY: "Microsoft Yahei"; HEIGHT: 30px
+}
+#showLayer-6 UL {
+    MARGIN-BOTTOM: 10px; OVERFLOW: hidden
+}
+#showLayer-6 UL LI {
+    DISPLAY: inline; PADDING-LEFT: 16px; BACKGROUND: url(/templets/default/images/ico-6.png) no-repeat 6px 11px; FLOAT: left; WIDTH: 171px; LINE-HEIGHT: 30px; BORDER-BOTTOM: #dcdcdc 1px dotted; HEIGHT: 30px
+}
+#showLayer-6 #closeLayer-6 {
+    RIGHT: 5px; BACKGROUND: url(/templets/default/images/ico-9.png) no-repeat 0px 0px; WIDTH: 19px; CURSOR: pointer; POSITION: absolute; TOP: 5px; HEIGHT: 19px
+}
+#showLayer-7 {
+    BORDER-RIGHT: #3685c3 2px solid; PADDING-RIGHT: 30px; BORDER-TOP: #3685c3 2px solid; PADDING-LEFT: 30px; BACKGROUND: #fff; PADDING-BOTTOM: 30px; BORDER-LEFT: #3685c3 2px solid; WIDTH: 748px; PADDING-TOP: 30px; BORDER-BOTTOM: #3685c3 2px solid; POSITION: relative
+}
+#showLayer-7 .tit {
+    PADDING-LEFT: 30px; FONT-SIZE: 16px; BACKGROUND: url(/templets/default/images/ico-5.png) no-repeat 0px 6px; COLOR: #207dc7; LINE-HEIGHT: 30px; FONT-FAMILY: "Microsoft Yahei"; HEIGHT: 30px
+}
+#showLayer-7 UL {
+    MARGIN-BOTTOM: 10px; OVERFLOW: hidden
+}
+#showLayer-7 UL LI {
+    DISPLAY: inline; PADDING-LEFT: 16px; BACKGROUND: url(/templets/default/images/ico-6.png) no-repeat 6px 11px; FLOAT: left; WIDTH: 171px; LINE-HEIGHT: 30px; BORDER-BOTTOM: #dcdcdc 1px dotted; HEIGHT: 30px
+}
+#showLayer-7 #closeLayer-7 {
+    RIGHT: 5px; BACKGROUND: url(/templets/default/images/ico-9.png) no-repeat 0px 0px; WIDTH: 19px; CURSOR: pointer; POSITION: absolute; TOP: 5px; HEIGHT: 19px
+}
+.sideLinks {
+    MARGIN: 0px auto; WIDTH: 100%; FONT-FAMILY: "微软雅黑"; POSITION: relative; HEIGHT: 37px
+}
+.sideLinks .link1 {
+    DISPLAY: block; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: 36px; POSITION: relative; HEIGHT: 36px;margin: 5px 0 5px 0;
+}
+.sideLinks .link1 .a1 {
+    DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(/templets/default/images/ico-1.png) #3685c3 no-repeat 28px 16px; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 36px; FONT-FAMILY: "Microsoft Yahei"; HEIGHT: 36px; TEXT-ALIGN: center
+}
+.sideLinks .link1 .a1:hover {
+
+}
+.sideLinks .link2 {
+    DISPLAY: block; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: 36px; HEIGHT: 36px
+}
+.sideLinks .link2 .a2 {
+    DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(/templets/default/images/ico-2.png) #f39c18 no-repeat 28px 16px; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 36px; FONT-FAMILY: "Microsoft Yahei"; HEIGHT: 36px; TEXT-ALIGN: center
+}
+.sideLinks .link3 {
+    DISPLAY: block; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: 36px; HEIGHT: 36px;margin: 0px 0 5px 0;
+}
+.sideLinks .link3 .a3 {
+    DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(/templets/default/images/ico-2.png) #f56e6e no-repeat 28px 16px; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 36px; FONT-FAMILY: "Microsoft Yahei"; HEIGHT: 36px; TEXT-ALIGN: center
+}
+.more{
+    color:#A2A4AD;
+    margin-right: 10px;
+    *margin-right: 10px;
+}
+.onduty{
+
+    width: 130px;
+    padding: 0px;
+    text-align: left;
+    margin: 0 auto;
+}
+.tztbli{
+    margin: 0;
+    padding: 0;
+}
+.zhiwei{
+    color:red;
+}

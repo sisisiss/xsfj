@@ -1,0 +1,273 @@
+<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/dedecms_skins_0.css" type="text/css" id="cssfile" />
+<style type="text/css">
+.navn {
+	width: 1002px;
+	height: 41px;
+	margin: auto;
+	margin-top: -60px;
+	background: url({dede:global.cfg_templets_skin/}/style/nav.png) no-repeat;
+}
+.navn li {
+	float: left;
+	width: 110px;
+	height: 41px;
+	text-align: center;
+}
+.navn li a {
+	display: block;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #FFFFFF;
+}
+.navb {
+	height: 41px;
+	line-height: 41px;
+	color: #009900;
+	padding-left: 20px;
+}
+.navn .hover {
+	background: url({dede:global.cfg_templets_skin/}/style/nb.png) no-repeat;
+	background-position: center
+}
+.navn a:hover {
+	text-decoration: none;
+	background: url({dede:global.cfg_templets_skin/}/style/nb.png) no-repeat;
+	background-position: center
+}
+.left2 li {
+	width: 100%;
+	height: 28px;
+	padding-left: 15px;
+	background: url({dede:global.cfg_templets_skin/}/style/arrl.png) no-repeat;
+}
+.left2 li span {
+	float: right;
+}
+.left2 li a {
+	display: block;
+	float: left;
+}
+.left3 {
+	width: 232px;
+	background: url({dede:global.cfg_templets_skin/}/style/left3.png) no-repeat;
+	height: 231px;
+	margin-left: 12px;
+	float: left;
+}
+.time {
+}
+.bt1 {
+	height: 37px;
+	width: 100%;
+	line-height: 37px;
+	padding-left: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+	background: url({dede:global.cfg_templets_skin/}/style/bt1.png) no-repeat;
+}
+.bt2 {
+	width: 100%;
+	background: url({dede:global.cfg_templets_skin/}/style/bt2.png) repeat-y;
+}
+.zb .bt2 {
+	width: 100%;
+	height: 180px;
+	background: url({dede:global.cfg_templets_skin/}/style/bt2.png) repeat-y;
+}
+.bt3 {
+	width: 100%;
+	height: 8px;
+	background: url({dede:global.cfg_templets_skin/}/style/bt3.png) repeat-y;
+}
+.zb .bt2 li {
+	width: 112px;
+	float: left;
+	margin-top: 7px;
+	margin-left: 8px;
+	height: 28px;
+	line-height: 28px;
+}
+.zb .bt2 li .bsa {
+	display: block;
+	color: #0a62a0;
+	padding-left: 29px;
+	background: url({dede:global.cfg_templets_skin/}/style/lfg.png);
+}
+.zb .bt2 li .bsa:hover {
+	display: block;
+	color: #990000;
+	text-decoration: none;
+	padding-left: 29px;
+	background: url({dede:global.cfg_templets_skin/}/style/lfg1.png);
+}
+.bsj {
+	width: 231px;
+	display: block;
+	color: #0a62a0;
+	height: 28px;
+	padding-left: 29px;
+	background: url({dede:global.cfg_templets_skin/}/style/lfg2.png) no-repeat;
+}
+.bsj:hover {
+	width: 231px;
+	display: block;
+	color: #990000;
+	padding-left: 29px;
+	text-decoration: none;
+	height: 28px;
+	background: url({dede:global.cfg_templets_skin/}/style/lfg3.png) no-repeat;
+}
+.zhongyouce .bt {
+	float: left;
+	font-size: 14px;
+	background: url({dede:global.cfg_templets_skin/}/style/chengse.jpg) no-repeat;
+	background-position: 0px 10px;
+	padding-left: 11px;
+	color: #0a62a0;
+	font-weight: bold;
+	margin-left: 17px;
+}
+.zhongyouce .bt img {
+	margin-right: 3px;
+}
+.zhongyouce li {
+	line-height: 200%;
+}
+.zhongyouce {
+	width: 244px;
+	float: left;
+	height: 145px;
+	background: url({dede:global.cfg_templets_skin/}/style/btt1.png) no-repeat;
+	height: 30px;
+	line-height: 35px;
+}
+.zhongyouce li span {
+	float: right;
+}
+.zhongyouce1 .bt {
+	float: left;
+	font-size: 14px;
+	background: url({dede:global.cfg_templets_skin/}/style/chengse.jpg) no-repeat;
+	background-position: 0px 10px;
+	padding-left: 11px;
+	color: #0a62a0;
+	font-weight: bold;
+	margin-left: 17px;
+}
+.zhongyouce1 .bt img {
+	margin-right: 3px;
+}
+.zhongyouce1 li {
+	line-height: 200%;
+}
+.zhongyouce1 {
+	width: 244px;
+	float: left;
+	height: 145px;
+	background: url({dede:global.cfg_templets_skin/}/style/btt2.png) no-repeat;
+	height: 30px;
+	line-height: 35px;
+}
+.zhongyouce1 li span {
+	float: right;
+}
+.btt1 {
+	height: 30px;
+	width: 100%;
+	line-height: 30px;
+	padding-left: 25px;
+	color: #0a62a0;
+	font-weight: bold;
+	font-size: 14px;
+	background: url({dede:global.cfg_templets_skin/}/style/bttt1.png) no-repeat;
+}
+.btt2 {
+	width: 100%;
+	background: url({dede:global.cfg_templets_skin/}/style/bttt2.png) repeat-y;
+}
+.zbb .btt2 {
+	width: 100%;
+	background: url({dede:global.cfg_templets_skin/}/style/bttt2.png) repeat-y;
+}
+.btt3 {
+	width: 100%;
+	height: 9px;
+	background: url({dede:global.cfg_templets_skin/}/style/bttt3.png) repeat-y;
+}
+.zbb .btt2 li {
+	width: 210px;
+	float: left;
+	margin-top: 7px;
+	margin-left: 10px;
+	line-height: 28px;
+}
+.zbb .btt2 li a {
+	color: #0a62a0;
+}
+.btb2 {
+	width: 100%;
+	background: url({dede:global.cfg_templets_skin/}/style/bttt2.png) repeat-y;
+}
+.btb2 li {
+	width: 212px;
+	margin-top: 10px;
+	float: left;
+	line-height: 30px;
+}
+.btb2 .bsj {
+	width: 212px;
+	display: block;
+	color: #999999;
+	height: 28px;
+	font-size: 14px;
+	margin-left: 10px;
+	padding-left: 29px;
+	background: url({dede:global.cfg_templets_skin/}/style/btb2.png) no-repeat;
+}
+.btb2 .bsj:hover {
+	width: 212px;
+	display: block;
+	color: #990000;
+	padding-left: 29px;
+	text-decoration: none;
+	height: 28px;
+}
+.btbb2 {
+	width: 100%;
+	background: url({dede:global.cfg_templets_skin/}/style/bttt2.png) repeat-y;
+}
+.btbb2 li {
+	width: 212px;
+	margin-top: 10px;
+	float: left;
+	line-height: 20px;
+}
+.btbb2 .bsjb {
+	width: 212px;
+	display: block;
+	color: #000000;
+	text-decoration: underline;
+	height: 20px;
+	font-size: 14px;
+	margin-left: 10px;
+	padding-left: 12px;
+}
+</style>
+<div class="" style="width:100%; height:258px;background:url({dede:global.cfg_templets_skin/}/style/bg.png) no-repeat; background-position: center;">
+  <div class="" style="width:1002px; margin:auto;height:277px;line-height:35px; "> </div>
+  
+  <!-- 导航 -->
+  <div class="navn" style="">
+    <div class="navt" style="height:41px; line-height:41px;">
+      <li><a href='/'>首页</a></li>
+      {dede:channel type='top' row='8' currentstyle="
+      <li><a class='hover' href='~typelink~'>~typename~</a></li>
+      "}
+      <li><a href='[field:typeurl/]'>[field:typename/]</a></li>
+      {/dede:channel} </div>
+  </div>
+  
+  <!-- //导航 --> 
+</div>

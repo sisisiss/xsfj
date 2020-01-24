@@ -1,0 +1,1 @@
+<li>[field:title function='html2text(@me)'/]"</li>

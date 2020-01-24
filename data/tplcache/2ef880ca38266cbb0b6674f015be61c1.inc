@@ -1,0 +1,1 @@
+<li style="width: 300px;line-height: 27px;"><img src="/images/arrl.png" style="float:left; margin-top:9px; margin-right:5px;"/><a href='[field:arcurl/]'>[field:title/]</a></li>

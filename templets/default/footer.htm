@@ -1,0 +1,21 @@
+<div style="width:100%; border-top:2px solid #2892c7; float:left; margin-top:10px;">
+  <div class="footer center mt1 clear" style="width:1002px; margin:auto; text-align:center;height:100px;line-height:200%;"> {dede:global.cfg_powerby/}<br />
+    {dede:global.cfg_beian/}<br />
+    {dede:global.tongji/} <a id="ie8tip" style="color:red;display: none" href="/IE8cn_XP.exe">你使用的浏览器版本过低，推荐使用ie8浏(xp版)览器</a>
+  </div>
+  <script type="text/javascript">
+      var browser=navigator.appName
+      var b_version=navigator.appVersion
+      var version=b_version.split(";");
+      var trim_Version=version[1].replace(/[ ]/g,"");
+      if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE6.0")
+      {
+          document.getElementById("ie8tip").style.display='block';
+      }
+      else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE7.0")
+      {
+          document.getElementById("ie8tip").style.display='block';
+      }
+
+  </script>
+</div>

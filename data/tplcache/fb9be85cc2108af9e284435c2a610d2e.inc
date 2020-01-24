@@ -1,0 +1,1 @@
+<li><a href='[field:arcurl/]' style="width: 310px">• [field:title/]</a><a style="width: 30px" href='[field:arcurl/]'>签收</a><span style="color:#A2A4AD; ">[field:pubdate function='strftime("%m-%d",@me)'/]</span></li>

@@ -1,0 +1,51 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+	<meta name="keywords" content="{dede:field name='keywords'/}" />
+	<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+	<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+	<style>
+		table{
+			font-size: 14px;
+			width:1002px;
+		}
+	</style>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div style="width:1002px; margin:auto; margin-top:25px;">
+
+	<div style="width:100%;margin-top:12px;" class="leftt2">
+		<div style="height:25px; line-height:25px;">
+
+			<span style="float:left; padding-right:20px; color:#999999;">当前位置:{dede:field name='position'/}</span>
+		</div>
+
+		<div style="padding-top:11px; width:96%; margin-top:20px; color:#333333;line-height:180%; font-size:14px;">
+
+
+			<H2 style="text-align:center; line-height:80px;">{dede:field.title/}</H2>
+			<div style="font-size:12px; text-align:center;">作者:</small>{dede:field.writer/} 发布时间:{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/} 点击:</small><script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script>次</div>
+			<div style="margin-top:10px; min-height:350px; font-size:14px; line-height:35px;">{dede:field.body/}</div>
+
+
+		</div>
+		<style type="text/css">
+			.context li a{ float:right;}
+		</style>
+		<div class="context" style="text-align:left; margin-top:20px; border-top:1px dashed #CCCCCC; padding-top:10px;line-height:180%;">{dede:prenext get='pre'/}<br />
+			{dede:prenext get='next'/}
+		</div>
+	</div>
+
+
+
+</div>
+
+{dede:include filename="footer.htm"/}
+<!-- /footer -->
+
+</body>
+</html>
