@@ -19,10 +19,8 @@ function lib_todaybirthday(&$ctag,&$refObj)
     //FillAttsDefault($ctag->CAttribute->Items,$attlist);
     //extract($ctag->CAttribute->Items, EXTR_SKIP);
 
-    
     $innertext = $ctag->GetInnerText();
     if(trim($innertext)=='') $innertext = GetSysTemplets("onduty.htm");
-
 
     $ctp = new DedeTagParse();
     $ctp->SetNameSpace('field', '[', ']');
@@ -31,14 +29,12 @@ function lib_todaybirthday(&$ctag,&$refObj)
 
     $today=GetOnDutyDate($querydate);
 
-
     $returntodaybirthday = '';
     $query = "SELECT ar.id, ad.body FROM `#@__birthday` as ad left join `#@__archives` as ar on ad.aid=ar.id WHERE ar.title='生日'";
     $dsql->Execute('me',$query);
 
     while($rs = $dsql->GetArray('me'))
     {
-
 
         $innerHTML = '';
         $dom = new DOMDocument('1.0','UTF-8');

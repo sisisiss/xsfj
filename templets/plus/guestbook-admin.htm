@@ -67,13 +67,11 @@
 <body class="mapspage">
 
 <div class="header">
-<div class="top w960 center">
-		<div class="title">
-			<h1>
-				<h1><a href="<?php echo $cfg_basehost;?>/"><?php echo $cfg_webname;?></a></h1>
-			</h1>
-		</div><!-- /title -->
-	</div><!-- /top -->
+    <div class="top w960 center">
+        <div class="title" style="float:none;margin: 0 auto">
+            <h1 style="float:none;margin: 0 auto"><a style="width: 100%" href="<?php echo $cfg_basehost;?>/"><?php echo $cfg_webname;?></a></h1>
+        </div><!-- /title -->
+    </div><!-- /top -->
 </div><!-- /header -->
 <div class="w960 clear center mt1">
   <div class="sp-title">
@@ -91,14 +89,6 @@
   <tr bgcolor="#ffffff">
     <td width="15%" height="30" align="center"><font color="#FF0000">*</font>留言者：</td>
     <td width="35%"><?php echo $row['uname']; ?></td>
-    <td width="15%" align="center" nowrap>OICQ号码：</td>
-    <td width="35%"><?php echo $row['qq']; ?></td>
-  </tr>
-  <tr bgcolor="#ffffff">
-    <td height="30" align="center" nowrap>&nbsp;电子邮件：</td>
-    <td><?php echo $row['email']; ?></td>
-    <td align="center" nowrap height="12">个人主页：</td>
-    <td height="12"><?php echo $row['homepage']; ?></td>
   </tr>
   <tr bgcolor="#ffffff">
     <td align="center" nowrap width="10%">

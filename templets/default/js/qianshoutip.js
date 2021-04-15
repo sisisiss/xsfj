@@ -50,15 +50,14 @@ function InitPage()
 //     });
 // });
 function open_win(id){
-    popwinheight=500;
-    popwinwidth = 600;
+    popwinheight = 500;
+    popwinwidth = 800;
     var clientwidth = document.documentElement.clientWidth || document.body.clientWidth;
     var clientheight = document.documentElement.clientHeight || document.body.clientHeight;
-    xpos=(clientwidth-popwinwidth)/2;
-    ypos=(clientheight-popwinheight)/2;
+    xpos=(clientwidth-popwinwidth/2)/2;
+    ypos=(clientheight-popwinheight/2)/2;
 
     location1="/plus/article_signfor_detail.php?mid="+id;
-
 
     param1="toolbar=no, location=no, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=yes, copyhistory=no,left="+xpos+",top="+ypos+", width="+popwinwidth+", height="+popwinheight;
 

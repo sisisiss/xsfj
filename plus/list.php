@@ -22,7 +22,6 @@ if( isset($date) && strtotime($date) ){
     $tid=$cinfo["typeid"];
     if(!$tid){
         echo "<script>document.write('无值班信息');</script>";
-
     }
 
 }
